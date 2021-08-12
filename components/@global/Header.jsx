@@ -7,7 +7,7 @@ function classNames(...classes) {
     return classes.filter(Boolean).join(" ")
 }
 
-export default function Header({ publisher }) {
+export default function Header({ publisher, definition }) {
     return (
         <Fragment>
             <header className="bg-white border-b">
@@ -24,12 +24,12 @@ export default function Header({ publisher }) {
                             </a>
                         </Link>
                         <button className={classNames(
-                            "px-4 py-2 inline-flex rounded-xl bg-blue-500 hover:bg-blue-600 hover:text-white",
+                            "px-4 py-2 inline-flex rounded-xl bg-yellow-500 hover:bg-yellow-600",
                             "transition duration-150 ease-in-out"
                         )}>
                             <Link href="/donation">
-                                <a className="inline-flex items-center font-medium text-gray-50">
-                                    <EmojiHappyIcon className="w-5" />&nbsp;Donation
+                                <a className="inline-flex items-center font-medium text-white">
+                                    <EmojiHappyIcon className="w-5" />&nbsp;{definition}
                                 </a>
                             </Link>
                         </button>
@@ -41,5 +41,6 @@ export default function Header({ publisher }) {
 }
 
 Header.propTypes = {
-    publisher: Proptypes.string.isRequired
+    publisher: Proptypes.string.isRequired,
+    definition: Proptypes.string.isRequired
 }
