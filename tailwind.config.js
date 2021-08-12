@@ -5,7 +5,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'gt-walsheim': ['gt-walsheim']
+      'gt-walsheim': ['gt-walsheim'],
+      'sarabun': ['sarabun']
     }
   },
   variants: {
