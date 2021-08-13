@@ -32,3 +32,10 @@
     font-weight: 900;
     src: url(./fonts/gt-walsheim/gt-walsheim-black-subset.woff2) format('woff2');
 }
+
+@font-face {
+    font-family: 'sarabun';
+    font-style: normal;
+    font-weight: 500;
+    src: url(./fonts/sarabun/sarabun-medium.ttf);
+}
