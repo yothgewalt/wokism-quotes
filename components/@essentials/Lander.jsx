@@ -1,14 +1,15 @@
 import { Fragment } from "react/cjs/react.production.min";
 import Proptypes from "prop-types"
+import Random from "./exports/Random";
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(" ")
 }
 
-export default function Mainstream({ unhighlight, highlight }) {
+export default function Lander({ unhighlight, highlight }) {
     return (
         <Fragment>
-            <div className="container mx-auto px-4 my-40 max-w-9xl">
+            <div className="container mx-auto px-4 my-20 max-w-9xl">
                 <div className="flex flex-col justify-center items-center overflow-hidden">
                     <h2 className="font-bold text-7xl text-black">
                         {unhighlight}
@@ -19,13 +20,14 @@ export default function Mainstream({ unhighlight, highlight }) {
                     )}>
                         {highlight}
                     </h1>
+                    <Random />
                 </div>
             </div>
         </Fragment>
     )
 }
 
-Mainstream.propTypes = {
+Lander.propTypes = {
     unhighlight: Proptypes.string.isRequired,
     highlight: Proptypes.string.isRequired
 }

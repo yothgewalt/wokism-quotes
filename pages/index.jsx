@@ -1,20 +1,20 @@
 import Head from 'next/head'
 import { Fragment } from 'react/cjs/react.production.min'
 import Header from '../components/@global/Header'
-import Mainstream from '../components/@global/Mainstream'
+import Lander from '../components/@essentials/Lander'
 
 export default function Index() {
     return (
         <Fragment>
             <Head>
-                <meta charset="utf-8" />
+                <meta charSet="utf-8" />
                 <title>Wokism Quotes</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <meta http-equiv="x-ua-compatible" content="ie=edge" />
+                <meta httpEquiv="x-ua-compatible" content="ie=edge" />
             </Head>
             <div className="bg-white font-gt-walsheim font-normal text-base">
                 <Header publisher="Wokism Quotes" definition="Donation" />
-                <Mainstream unhighlight="Generate the discourse of wokism" highlight="that are common in Thailand" />
+                <Lander unhighlight="Generate the discourse of wokism" highlight="that are common in Thailand" />
             </div>
         </Fragment>
     )
