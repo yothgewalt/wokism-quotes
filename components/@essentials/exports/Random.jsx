@@ -38,7 +38,7 @@ export default function Random() {
             <div className="mt-6 flex flex-row justify-between items-center">
                 <FacebookShareButton 
                     className="m-2" 
-                    url={baseURL} 
+                    url="https://wokism-quotes.vercel.app"
                     quote={quote} 
                     hashtag="#ThisIsMyWorkismDiscourse"
                 >
@@ -46,7 +46,7 @@ export default function Random() {
                 </FacebookShareButton>
                 <TwitterShareButton 
                     className="m-2"
-                    url={baseURL}
+                    url="https://wokism-quotes.vercel.app"
                     title={quote}
                     via="Generate the discourse of wokism that are common in Thailand"
                 >
@@ -54,7 +54,7 @@ export default function Random() {
                 </TwitterShareButton>
                 <TelegramShareButton
                     className="m-2"
-                    url={baseURL}
+                    url="https://wokism-quotes.vercel.app"
                     title={quote}
                 >
                     <TelegramIcon size={48} round={true} />
