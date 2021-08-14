@@ -48,7 +48,7 @@ export default function Random() {
                     className="m-2"
                     url="https://wokism-quotes.vercel.app"
                     title={quote}
-                    via="Generate the discourse of wokism that are common in Thailand"
+                    via="Generate the discourse of wokism that is common in Thailand"
                 >
                     <TwitterIcon size={48} round={true} />
                 </TwitterShareButton>

@@ -17,7 +17,7 @@ export default function Index() {
                 <meta property="og:url" content="https://wokism-quotes.vercel.app" />
                 <meta property="og:type" content="website" />
                 <meta property="og:title" content="Wokism Quotes" />
-                <meta property="og:description" content="Generate the discourse of wokism that are common in Thailand" />
+                <meta property="og:description" content="Generate the discourse of wokism that is common in Thailand" />
                 <meta 
                     property="og:image"
                     content={
