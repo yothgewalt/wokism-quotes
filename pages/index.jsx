@@ -27,7 +27,7 @@ export default function Index() {
             </Head>
             <div className="bg-white h-screen font-gt-walsheim font-normal text-base">
                 <Header publisher="Wokism Quotes" definition="Coming soon" />
-                <Lander unhighlight="Generate the discourse of wokism" highlight="that are common in Thailand" />
+                <Lander unhighlight="Generate the discourse of wokism" highlight="that is common in Thailand" />
             </div>
         </Fragment>
     )
