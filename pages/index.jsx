@@ -11,6 +11,10 @@ export default function Index() {
                 <title>Wokism Quotes</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
+                <meta name="description" content="Wokism Discourse" />
+                <meta property="og:url" content="" />
+                <meta property="og:title" content="Wokism Quotes" />
+                <meta property="og:description" content="Generate the discourse of wokism that are common in Thailand" />
             </Head>
             <div className="bg-white font-gt-walsheim font-normal text-base">
                 <Header publisher="Wokism Quotes" definition="Donation" />
