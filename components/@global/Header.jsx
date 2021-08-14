@@ -24,8 +24,8 @@ export default function Header({ publisher, definition }) {
                         <button className={classNames(
                             "px-3 py-2 inline-flex rounded-xl bg-pink-500 hover:bg-pink-600",
                             "transition duration-150 ease-in-out"
-                        )}>
-                            <Link href="/donation">
+                        )} disabled>
+                            <Link href="/">
                                 <a className="inline-flex items-center font-medium text-white">
                                     <EmojiHappyIcon className="w-5" />&nbsp;{definition}
                                 </a>

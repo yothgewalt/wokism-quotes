@@ -3,6 +3,8 @@ import { Fragment } from 'react/cjs/react.production.min'
 import Header from '../components/@global/Header'
 import Lander from '../components/@essentials/Lander'
 
+const baseURL = process.env.NEXT_PUBLIC_BASE_URL
+
 export default function Index() {
     return (
         <Fragment>
@@ -12,12 +14,19 @@ export default function Index() {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta httpEquiv="x-ua-compatible" content="ie=edge" />
                 <meta name="description" content="Wokism Discourse" />
-                <meta property="og:url" content="" />
+                <meta property="og:url" content={baseURL} />
+                <meta property="og:type" content="website" />
                 <meta property="og:title" content="Wokism Quotes" />
                 <meta property="og:description" content="Generate the discourse of wokism that are common in Thailand" />
+                <meta 
+                    property="og:image"
+                    content={
+                        "https://i.imgur.com/oTC4gqC.png"
+                    }
+                />
             </Head>
-            <div className="bg-white font-gt-walsheim font-normal text-base">
-                <Header publisher="Wokism Quotes" definition="Donation" />
+            <div className="bg-white h-screen font-gt-walsheim font-normal text-base">
+                <Header publisher="Wokism Quotes" definition="Coming soon" />
                 <Lander unhighlight="Generate the discourse of wokism" highlight="that are common in Thailand" />
             </div>
         </Fragment>
