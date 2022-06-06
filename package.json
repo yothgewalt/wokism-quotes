@@ -9,7 +9,7 @@
     "post-update": "yarn upgrade --latest"
   },
   "engines": {
-    "node": "18.0.0"
+    "node": "^18 || ^17"
   },
   "dependencies": {
     "@nextui-org/react": "^1.0.0-beta.7",
